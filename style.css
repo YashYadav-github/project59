@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#bio{
+    text-align: center;
+    background-image: linear-gradient(#312dfc, #3892ff, #4bebfa);
+    padding-top: 60px
+}
+.bio-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.line{
+    width: 83px;
+    height: 10px;
+    background-color: yellow;
+    margin-left: 675px;
+}
+.menu{
+    z-index: 10;    
+    font-family: 'Yusei Magic', sans-serif;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    float: right;
+    top: 10px;
+    right: 30px;
+}
+.link{
+    float: left;
+    list-style: none;
+    color: white;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    font-size: 25px;
+    background-color: chartreuse;
+}
+#about{
+    text-align: center;
+    background-color: pink;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+#hobby{
+    font-family: 'Lobster', cursive;
+}
+#favourite-language{
+    text-align: center;
+    background-color: greenyellow;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#favourite-language a{
+    padding-top: 10px;
+    color: blue;
+    text-decoration: underline;
+    font-size: 25px
+}
+#work{
+    background-color: orange;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+#work a{
+     text-decoration: underline;
+     color: mediumvioletred;
+}
+#contact{
+    background-color: silver;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#contact a{
+    color: grey
+}
